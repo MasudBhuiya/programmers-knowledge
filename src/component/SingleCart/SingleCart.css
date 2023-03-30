@@ -1,0 +1,22 @@
+.single-data{
+    border: 2px solid gray;
+}
+.single-data img{
+    width: 60%;
+}
+.user-img img{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+}
+.user-detail{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-img{
+    display: flex;
+    align-items: center;
+}
+

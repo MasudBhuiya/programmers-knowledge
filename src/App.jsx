@@ -6,6 +6,7 @@ import Header from './component/Header/Header'
 import Cart from './component/Cart/Cart'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import Example from './component/Example/Example'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Cart></Cart>
+      <Example></Example>
     </div>
   )
 }

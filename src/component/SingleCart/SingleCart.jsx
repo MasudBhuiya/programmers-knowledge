@@ -1,6 +1,7 @@
 import React from 'react';
 import './SingleCart.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 

@@ -15,7 +15,7 @@ const Cart = () => {
             <Details cart ={cart} ></Details>
             </div>
             <div>
-            <h1>hello</h1>
+            <h5>Spent time on read: <span>0</span></h5>
             </div>
         </div>
     );

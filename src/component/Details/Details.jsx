@@ -1,6 +1,6 @@
 import React from 'react';
 import SingleCart from '../SingleCart/SingleCart';
-import './Details.css'
+
 
 const Details = ({ cart }) => {
     // console.log(cart)

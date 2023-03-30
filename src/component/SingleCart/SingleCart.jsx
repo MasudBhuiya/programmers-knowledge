@@ -4,17 +4,29 @@ import './SingleCart.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function SingleCart() {
+function SingleCart({singleData}) {
+    console.log(singleData)
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="" />
+    <Card className='mx-auto' style={{ width: '75%', margin:"20px"}}>
+      <Card.Img variant="top" src={singleData.img} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <div className='single-data'>
+        <div className='user-name'>
+        <img style={{width:"45px", borderRadius:"50%"}} src={singleData.userImg} alt="" />
+        <div>
+            <h5>{singleData.name}</h5>
+            <p>{singleData.publishDate}</p>
+        </div>
+        </div>
+        <p>{singleData.readTime}</p>
+        </div>
+        <Card.Title>{singleData.title}</Card.Title>
+        <div style={{display:"flex", gap:"17px"}}>
+            <p>#beginners</p>
+            <p>#programming</p>
+        </div>
+        <u style={{backgroundColor:'white', color:'blue'}}>Mark as read</u>
+
       </Card.Body>
     </Card>
   );

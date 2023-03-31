@@ -1,7 +1,5 @@
-.cart-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
+
+
 .sidebar{
     padding: 30px;
     text-align: center;
@@ -15,3 +13,16 @@
     padding: 10px 20px;
     border-radius: 7px;
 }
+@media screen and (min-width: 679px) {
+    
+        .cart-container{
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+        }
+  }
+@media screen and (min-width: 680px) and (max-width: 1440px) {
+    
+        .cart-container{
+            display: block;
+        }
+  }

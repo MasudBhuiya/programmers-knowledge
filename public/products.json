@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Mr.Raju",
-        "title": "Master Microsoft Power Platform and Become an In-Demand!", 
+        "title": "The future of programming language is natural language", 
         "img": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "userImg": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "publishDate": "Mar 14 (4 Days ago)",
@@ -12,7 +12,7 @@
         "id": 2,
         "readTime":5,
         "name": "Nur Alam",
-        "title": "Master Microsoft Power Platform and Become an In-Demand!", 
+        "title": "Build a new website for user", 
         "img": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "userImg": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "publishDate": "May 15 (5 Days ago)"
@@ -30,7 +30,7 @@
     {
         "id": 4,
         "name": "Mr. Ratul",
-        "title": "Master Microsoft Power Platform and Become an In-Demand!", 
+        "title": "Try to grasp the underlying ideas inste", 
         "img": "https://media.istockphoto.com/id/1355632716/photo/close-up-portrait-of-software-engineer-working-on-computer-line-of-code-run-aroung-him.jpg?s=612x612&w=0&k=20&c=LguSmZMBfjp4mLVkPJ837TEouWBGbGDjWQRfLuS7ebw=",
         "userImg": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dXNlciUyMHByb2ZpbGUlMjBzcXVhcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         "publishDate": "August 17 (3 Days ago)",

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SingleCart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faBookBookmark, faBookmark, faCoffee, faFile, faFileText, faMailBulk } from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function SingleCart({singleData, handleTime}) {
-    // console.log(handleTime)
+
+function SingleCart({singleData, handleTime, handleTitle}) {
+    // console.log(singleData)
+    const [title, setTitle] = useState([])
+    
   return (
     <Card className='mx-auto' style={{ width: '75%', margin:"20px"}}>
       <Card.Img variant="top" src={singleData.img} />
@@ -19,7 +22,7 @@ function SingleCart({singleData, handleTime}) {
             <p>{singleData.publishDate}</p>
         </div>
         </div>
-        <p>{singleData.readTime} Time Read</p>
+        <p>{singleData.readTime} min read  <span onClick={()=>handleTitle(singleData.title)}><FontAwesomeIcon icon={faBookmark} /></span></p>
         </div>
         <Card.Title>{singleData.title}</Card.Title>
         <div style={{display:"flex", gap:"17px"}}>

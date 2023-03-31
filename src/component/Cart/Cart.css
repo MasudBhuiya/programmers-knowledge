@@ -8,9 +8,10 @@
     margin-top: 20px;
     border-radius: 7px;
     color: #6047EC;
+    background-color: rgb(236, 242, 245);
 }
 .spend-time{
     background-color: rgb(218, 233, 247);
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 7px;
 }

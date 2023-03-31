@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Details from '../Details/Details';
 import './Cart.css'
+import Blog from '../Blog/Blog';
 
 const Cart = ({handleTime, time, handleTitle, title}) => {
     console.log(title)
@@ -22,14 +23,14 @@ const Cart = ({handleTime, time, handleTitle, title}) => {
             <div>
             <Details cart ={cart} handleTime={handleTime} handleTitle={handleTitle} title={title}></Details>
             </div>
-            <div className='sidebar'>
+            <div  className='sidebar'>
             <h5 className='spend-time'>Spent time on read: <span>{totalTime}</span></h5>
-            <div>
-            <h4>BookMarked Blogs:  </h4>
-            <p ><span >{title}</span></p>
-            <br />
+            <div >
+            <h4 style={{color:'black'}}>BookMarked Blogs:  </h4>
+            <p style={{backgroundColor:'aliceblue', color:'black', paddingBottom:'10px'}}><span >{title}</span></p>
             </div>
             </div>
+            <Blog></Blog>
         </div>
     );
 };

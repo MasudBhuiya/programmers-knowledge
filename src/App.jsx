@@ -10,7 +10,7 @@ function App() {
   const [times, setTime] = useState(0);
   const [title, setTitle] = useState([])
     const handleTitle =(title) =>{
-      setTitle(p=>[...p,<br />,<br/>,title])
+      setTitle(p=>[...p,<br />,<br/>,title,])
     }
     console.log(title)
   const handleTime = (props) =>{

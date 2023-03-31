@@ -2,3 +2,11 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.spend-time{
+    background-color: #d1cbf7;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: #6047EC;
+}

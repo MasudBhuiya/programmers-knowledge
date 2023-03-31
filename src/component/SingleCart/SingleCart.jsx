@@ -5,8 +5,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function SingleCart({singleData}) {
-    console.log(singleData)
+function SingleCart({singleData, handleTime}) {
+    // console.log(handleTime)
   return (
     <Card className='mx-auto' style={{ width: '75%', margin:"20px"}}>
       <Card.Img variant="top" src={singleData.img} />
@@ -19,14 +19,14 @@ function SingleCart({singleData}) {
             <p>{singleData.publishDate}</p>
         </div>
         </div>
-        <p>{singleData.readTime}</p>
+        <p>{singleData.readTime} Time Read</p>
         </div>
         <Card.Title>{singleData.title}</Card.Title>
         <div style={{display:"flex", gap:"17px"}}>
             <p>#beginners</p>
             <p>#programming</p>
         </div>
-        <u style={{backgroundColor:'white', color:'blue'}}>Mark as read</u>
+        <button onClick={()=>handleTime(singleData.readTime)} style={{backgroundColor:'white', border:'0px'}}><u style={{ color:'blue'}}>Mark as read</u></button>
 
       </Card.Body>
     </Card>

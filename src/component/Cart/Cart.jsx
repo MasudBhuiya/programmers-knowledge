@@ -3,8 +3,8 @@ import Details from '../Details/Details';
 import './Cart.css'
 import Blog from '../Blog/Blog';
 
-const Cart = ({handleTime, time, handleTitle, title}) => {
-    console.log(title)
+const Cart = ({handleTime, time, handleTitle, title, bookmark}) => {
+    // console.log(title)
     const [cart, setCart] = useState([])
     const [totalTime, setTotalTime] = useState(time)
     
@@ -15,18 +15,18 @@ const Cart = ({handleTime, time, handleTitle, title}) => {
     },[])
     useEffect(()=>{
         const totalTimes = localStorage.getItem('totalTime')
-        setTotalTime(totalTimes)
+        setTotalTime(totalTimes);
     },[time])
 
     return (
         <div className='cart-container'>
             <div>
-            <Details cart ={cart} handleTime={handleTime} handleTitle={handleTitle} title={title}></Details>
+            <Details cart ={cart} handleTime={handleTime} key={cart.id} handleTitle={handleTitle} title={title}></Details>
             </div>
             <div  className='sidebar'>
             <h5 className='spend-time'>Spent time on read: <span>{totalTime}</span></h5>
             <div >
-            <h4 style={{color:'black'}}>BookMarked Blogs:  </h4>
+            <h4 style={{color:'black'}}>BookMarked Blogs: {bookmark} </h4>
             <p style={{backgroundColor:'aliceblue', color:'black', paddingBottom:'10px'}}><span >{title}</span></p>
             </div>
             </div>

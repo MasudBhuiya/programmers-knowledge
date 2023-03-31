@@ -22,7 +22,7 @@ function SingleCart({singleData, handleTime, handleTitle}) {
             <p>{singleData.publishDate}</p>
         </div>
         </div>
-        <p>{singleData.readTime} min read  <span onClick={()=>handleTitle(singleData.title)}><FontAwesomeIcon icon={faBookmark} /></span></p>
+        <p>{singleData.readTime} min read  <span onClick={()=>handleTitle(singleData.title, 1)}><FontAwesomeIcon icon={faBookmark} /></span></p>
         </div>
         <Card.Title>{singleData.title}</Card.Title>
         <div style={{display:"flex", gap:"17px"}}>
